@@ -1,5 +1,5 @@
 # React-Insta-Clone
-- Instagram
+- Instagram - 4 day build project
 
 ## Introduction
 
