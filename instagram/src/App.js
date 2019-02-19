@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 
+//sample user information
 import dummyData from './dummy-data';
+
+//imported from components folder
+// import SearchBar from './components/SearchBar/SearchBar';
+import PostContainer from "./components/PostContainer/PostContainer";
+
 
 
 class App extends Component {
@@ -16,12 +22,14 @@ constructor() {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>
-         
-          </p>
-
-        </header>
+       <header className="App-header">
+      {/* <SearchBar /> */}
+         {
+           this.state.dummyData.map((post, index) => (
+            <PostContainer key = {index} post= {post} />
+           ))
+         };
+         </header>
       </div>
     );
   }
