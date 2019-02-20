@@ -1,11 +1,9 @@
 .App {
-  text-align: center;
+  display: flex;
+  border: 2px solid black;
 }
 
-.cta{
-  color: white;
-  margin: 50px;
-}
+
 
 /* .App-header {
   background-color: #282c34;
