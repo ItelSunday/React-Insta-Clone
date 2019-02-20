@@ -30,21 +30,27 @@
 }
 
 .comment-container{
-    padding: 0px 0 0 16px;
-    max-width: 640px;
+    /* padding: 0px 0 0 16px; */
+    width: 640px;
     /* margin: 10px 0 0 0; */
     /* padding: 0 0 0 16px; */
     background-color: #FFFF;
 }
 
+.post-buttons{
+    margin: 4px 0 0 10px;
+}
+
 
 .comment{
+    padding-left: 10px;
     font-size: 14px;
     line-height: 18px;
 }
 
 .post-likes {
-margin: 0;
+    padding-left: 10px;
+    margin: 0;
    margin-top: 8px;
    font-size: 14px;
    font-weight: 600;
@@ -52,7 +58,7 @@ margin: 0;
 }
 
 .post-timestamp{
-    margin: 8px 0 0 0 ;
+    margin: 8px 0 0 10px ;
     padding-bottom: 10px;
     font-size: 10px;
     letter-spacing: 0.2px;
@@ -68,13 +74,19 @@ margin: 0;
     border-top: 1px solid #EFEFEF;
 }
 .comment-bar{
+    margin-left: 10px;
+    width: 582px;
     font-size: 14px;
     line-height: 18px;
     border: none;
     color: #99999999;
 }
 
-
+.more{
+    /* padding: 4px 0 0 0; */
+    width: 40px;
+    height: 52px;
+}
 
 
 

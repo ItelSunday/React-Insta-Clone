@@ -3,7 +3,7 @@ import './PostContainer.css';
 
 import CommentSection from '../CommentSection/CommentSection';
 
-
+import HeartIcon from '../../images/heart-icon.png';
 
 
 
@@ -21,7 +21,7 @@ function PostContainer (props) {
 
             <div className="comment-container">
                 <div className="post-buttons">
-                <img src="../../img/heart-icon.png" alt="heart"/>
+                <img src={HeartIcon} alt="heart"/>
                     <img src="../../img/comment-icon.png" alt="comment"/>
                 </div>
                 

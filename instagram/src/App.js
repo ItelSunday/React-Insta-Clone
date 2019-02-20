@@ -17,8 +17,13 @@ class App extends Component {
 constructor() {
   super();
   this.state = {
-    dummyData
+    dummyData,
+    text: ''
   };
+}
+
+hadleSubmit = e => {
+  e.preventDefault();
 }
 
 
