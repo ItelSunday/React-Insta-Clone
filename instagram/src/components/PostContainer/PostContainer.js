@@ -1,9 +1,13 @@
 import React from 'react';
 import './PostContainer.css';
 
+//sections
 import CommentSection from '../CommentSection/CommentSection';
 
+//styling
 import HeartIcon from '../../images/heart-icon.png';
+import CommentIcon from '../../images/comment-icon.png';
+import MoreIcon from '../../images/more-icon.png';
 
 
 
@@ -21,8 +25,8 @@ function PostContainer (props) {
 
             <div className="comment-container">
                 <div className="post-buttons">
-                <img src={HeartIcon} alt="heart"/>
-                    <img src="../../img/comment-icon.png" alt="comment"/>
+                <img src={HeartIcon} alt="like"/>
+                <img src={CommentIcon} alt="comment"/>
                 </div>
                 
                 <p className="post-likes">{props.post.likes} likes</p>
@@ -32,7 +36,7 @@ function PostContainer (props) {
                 <p className="post-timestamp">{props.post.timestamp}</p>
                 <div className="post-comment">
                     <input className="comment-bar" type='text' placeholder='Add a comment...'/>
-                    <img src="../../img/more-icon.png" alt="more"/>
+                    <img src={MoreIcon} alt="cmore"/>
                 </div>
 
             </div>
