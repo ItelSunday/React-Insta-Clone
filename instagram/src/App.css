@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+}
+
+.App {
+  /* text-align: center; */
+  align-content: center;
+  overflow: hidden;
+  background-color: #fafafa;
+  margin: 0 auto;
+}
+
+.App-header{
+  margin: 0;
+}
+
